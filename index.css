@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+/*NAV BAR STYLES*/
+.nav-container {
+  padding: 0 50px;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-wrapper .logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-wrapper .heading h1 {
+  color: teal;
+}
+
+.nav-wrapper .buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-wrapper .buttons img {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-wrapper .buttons button {
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #f5c645;
+  background-color: #f5c645;
+  cursor: pointer;
+  color: teal;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.nav-wrapper .buttons button:hover {
+  border: 1px solid teal;
+  background-color: teal;
+  color: #f5c645;
+}
+
+a {
+  text-decoration: none;
+  color: teal;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/*HERO SECTION STYLES*/
+.hero-container {
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(245, 198, 69, 1) 0%,
+    rgba(0, 150, 136, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(245, 198, 69, 1) 0%,
+    rgba(0, 150, 136, 1) 100%
+  );
+  background: -o-linear-gradient(
+    90deg,
+    rgba(245, 198, 69, 1) 0%,
+    rgba(0, 150, 136, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009688', endColorstr='#F5C645', GradientType=0 );
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(245, 198, 69, 1) 0%,
+    rgba(0, 150, 136, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(245, 198, 69, 1) 0%,
+    rgba(0, 150, 136, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 250px 0;
+}
+
+.hero-wrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-wrapper .hero-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-wrapper .hero-text h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.hero-wrapper .hero-text p {
+  color: white;
+  font-size: 20px;
+}
+
+.hero-wrapper .social-media-icons img {
+  width: 40px;
+  cursor: pointer;
+}
+
+/*ITEMS SECTION STYLES*/
+.items-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.items-wrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items-text h1 {
+  color: #f5c645;
+  text-align: center;
+}
+
+.items-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.items-container .items {
+  -webkit-box-shadow: 0px 0px 16px 0px #8c8c8c;
+  -moz-box-shadow: 0px 0px 16px 0px #8c8c8c;
+  box-shadow: 0px 0px 16px 0px #8c8c8c;
+}
+
+.items-container .items .item-name {
+  padding: 0 10px;
+}
+
+.items-container .items .item-name h3 {
+  color: teal;
+}
+
+.items-container .items .item-price {
+  padding: 5px 10px;
+}
+
+.items-container .items .item-price p {
+  color: teal;
+}
+
+.items-wrapper .items-container .items img {
+  width: 250px;
+  height: 400px;
+}
+
+/*CONTACT SECTION STYLES*/
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+}
+
+.contact-wrapper {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+
+.contact-wrapper .contact-text h1 {
+  color: teal;
+}
+
+.contact-wrapper .contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact-wrapper .contact-form form input {
+  width: 400px;
+  border: 1px solid teal;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.contact-wrapper .contact-form form button {
+  width: 200px;
+  border: 1px solid #f5c645;
+  background-color: #f5c645;
+  color: teal;
+  cursor: pointer;
+  height: 40px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.contact-wrapper .contact-form form button:hover {
+  border: 1px solid teal;
+  background-color: teal;
+  color: #f5c645;
+}
+
+/*FOOTER SECTION STYLES*/
+.footer-container {
+  background: -moz-linear-gradient(
+    270deg,
+    rgba(245, 198, 69, 1) 0%,
+    rgba(0, 150, 136, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    270deg,
+    rgba(245, 198, 69, 1) 0%,
+    rgba(0, 150, 136, 1) 100%
+  );
+  background: -o-linear-gradient(
+    270deg,
+    rgba(245, 198, 69, 1) 0%,
+    rgba(0, 150, 136, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F5C645', endColorstr='#009688', GradientType=0 );
+  background: -ms-linear-gradient(
+    270deg,
+    rgba(245, 198, 69, 1) 0%,
+    rgba(0, 150, 136, 1) 100%
+  );
+  background: linear-gradient(
+    270deg,
+    rgba(245, 198, 69, 1) 0%,
+    rgba(0, 150, 136, 1) 100%
+  );
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-social-icons img {
+  width: 25px;
+  height: 25px;
+}
+
+.footer-text p {
+  color: white;
+}
+
+@media screen and (max-width: 420px) {
+  /*NAV BAR STYLES*/
+  .nav-container {
+    padding: 0 20px 0 0;
+  }
+
+  .nav-wrapper .heading h1 {
+    display: none;
+  }
+
+  /*HERO SECTION STYLES*/
+  .hero-container {
+    padding: 50px 0;
+  }
+
+  .hero-wrapper .hero-text h1 {
+    font-size: 15px;
+  }
+
+  .hero-wrapper .hero-text p {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .hero-wrapper .social-media-icons img {
+    width: 20px;
+  }
+
+  /*ITEMS SECTION STYLES*/
+  .items-text h1 {
+    font-size: 15px;
+  }
+
+  .items-container {
+    gap: 25px;
+  }
+
+  .items-container .items .item-name h3 {
+    font-size: 13px;
+  }
+
+  .items-container .items .item-price p {
+    font-size: 13px;
+  }
+
+  .items-wrapper .items-container .items img {
+    width: 125px;
+    height: 200px;
+  }
+
+  /*CONTACT SECTION STYLES*/
+  .contact-container {
+    padding: 50px 0;
+  }
+
+  .contact-wrapper .contact-text h1 {
+    font-size: 15px;
+  }
+
+  .contact-wrapper .contact-form form input {
+    width: 200px;
+  }
+}
